@@ -9,7 +9,7 @@ function mintNFT (_Name, _EyeColor, _ShirtType, _Bling) {
 
     NFTs.push(NFT);
 console.log("Minted: "+ _Name + "\n")
-
+}
 function listNFTs() {
     for(let i=0;i<NFTs.length;i++){
         //console.log(NFTs[i])
